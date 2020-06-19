@@ -1,9 +1,7 @@
 {
   "debug.openExplorerOnEnd": true,
   "editor.tabSize": 2,
-  "editor.rulers": [
-    90
-  ],
+  "editor.rulers": [90],
   "editor.autoIndent": "full",
   "editor.cursorBlinking": "solid",
   "editor.formatOnType": false,
@@ -18,6 +16,9 @@
   "[html]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
+  "prettier.printWidth": 120,
+  "prettier.bracketSpacing": true,
+  "prettier.singleQuote": true,
   "explorer.openEditors.visible": 0,
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "onFocusChange",
@@ -28,6 +29,21 @@
   "workbench.iconTheme": "material-icon-theme",
   "auto-close-tag.SublimeText3Mode": true,
   "html.autoClosingTags": false,
+  "peacock.affectActivityBar": true,
+  "peacock.affectStatusBar": true,
+  "peacock.affectTitleBar": false,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#d04649",
+    "activityBar.activeBorder": "#37cb34",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#37cb34",
+    "activityBarBadge.foreground": "#15202b",
+    "statusBar.background": "#b52e31",
+    "statusBarItem.hoverBackground": "#d04649",
+    "statusBar.foreground": "#e7e7e7"
+  },
+  "peacock.color": "#b52e31",
   "gitlens.menus": {
     "editorGroup": false
   },
