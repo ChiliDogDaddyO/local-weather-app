@@ -11,16 +11,7 @@ import { WeatherService } from '../weather/weather.service'
 })
 export class CurrentWeatherComponent implements OnInit {
   current: ICurrentWeather
-  constructor(private httpClient: HttpClient, private weatherService: WeatherService) {
-    // this.current = {
-    //   city: '',
-    //   country: '',
-    //   date: 0,
-    //   image: '',
-    //   temperature: 0,
-    //   description: '',
-    // }
-  }
+  constructor(private httpClient: HttpClient, private weatherService: WeatherService) { }
 
   ngOnInit(): void {
     // this.weatherService
