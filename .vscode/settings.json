@@ -21,7 +21,7 @@
   "prettier.singleQuote": true,
   "explorer.openEditors.visible": 0,
   "files.trimTrailingWhitespace": true,
-  "files.autoSave": "onFocusChange",
+  // "files.autoSave": "onFocusChange",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "npm.enableScriptExplorer": true,
@@ -41,11 +41,14 @@
     "activityBarBadge.foreground": "#15202b",
     "statusBar.background": "#b52e31",
     "statusBarItem.hoverBackground": "#d04649",
-    "statusBar.foreground": "#e7e7e7"
+    "statusBar.foreground": "#e7e7e7",
+    "activityBar.activeBackground": "#d04649",
+    "statusBar.border": "#b52e31"
   },
   "peacock.color": "#b52e31",
   "gitlens.menus": {
     "editorGroup": false
   },
-  "ng-evergreen.upgradeChannel": "Latest"
+  "ng-evergreen.upgradeChannel": "Latest",
+  "peacock.remoteColor": "#b52e31"
 }
