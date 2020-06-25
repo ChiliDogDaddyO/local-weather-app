@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 5000 --host 0.0.0.0 --disableHostCheck true",
+    "start:remote": "ng serve --port 5000 --host 0.0.0.0 --disableHostCheck true",
+    "start": "ng serve --port 5000",
     "build": "ng build",
     "test": "ng test",
     "lint": "run-p lint:ts lint:tsc",
